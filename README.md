@@ -20,6 +20,11 @@ The output variable 'area' is very skewed towards 0.0, thus we will have to try 
 * Tweedie Zero gradient boosting for extremely unbalanced zero inflated data (https://www.math.mcgill.ca/yyang/resources/papers/CSSC_EMTboost.pdf)
 * Other methods like adding features, outlier treatment, different scaling etc can also be tried to see their effect.
 
+For evaluation we will also be using Regression Error Characteristic (REC) curves, for which we will define a function as it isn't available in sklearn.
+Link for the research paper on REC curve by Jinbo Bi and Kristin P. Bennett :-
+* http://homepages.rpi.edu/~bennek/papers/rec.pdf
+
+
 ---------------------------------------------------
 
 Relevant Papers:
