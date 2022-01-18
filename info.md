@@ -1,5 +1,4 @@
-General Info:
-
+<h1> General Info </h1>
 The data used in the experiments was collected from January 2000 to December 2003
 and it was built using two sources. The first database was collected by the inspector that
 was responsible for the Montesinho fire occurrences. At a daily basis, every time a forest
@@ -11,7 +10,7 @@ located in the center of the Montesinho park. The two databases were stored in t
 under distinct formats, and a substantial manual effort was performed to integrate them
 into a single dataset with a total of 517 entries.
 
-Attribute Information:
+<h1> Attribute Information </h1>
 
 For more information, read [Cortez and Morais, 2007].
 1. X - x-axis spatial coordinate within the Montesinho park map: 1 to 9
@@ -32,14 +31,14 @@ sense to model with the logarithm transform).
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-Relevant Papers:
+<h1> Relevant Papers </h1>
 
 [Cortez and Morais, 2007] P. Cortez and A. Morais. A Data Mining Approach to Predict Forest Fires using Meteorological Data. In J. Neves, M. F. Santos and 
 J. Machado Eds., New Trends in Artificial Intelligence, Proceedings of the 13th EPIA 2007 - Portuguese Conference on Artificial Intelligence, December, Guimarães, 
 Portugal, pp. 512-523, 2007. APPIA, ISBN-13 978-989-95618-0-9.
 
 
-Citation Request:
+<h1> Citation Request </h1>
 
 This dataset is public available for research. The details are described in [Cortez and Morais, 2007].
 Please include this citation if you plan to use this database:
