@@ -1,16 +1,15 @@
+General Info:
 
-Data Set Information:
-
-In [Cortez and Morais, 2007], the output 'area' was first transformed with a ln(x+1) function.
-Then, several Data Mining methods were applied. After fitting the models, the outputs were
-post-processed with the inverse of the ln(x+1) transform. Four different input setups were
-used. The experiments were conducted using a 10-fold (cross-validation) x 30 runs. Two
-regression metrics were measured: MAD and RMSE. A Gaussian support vector machine (SVM) fed
-with only 4 direct weather conditions (temp, RH, wind and rain) obtained the best MAD value:
-12.71 +- 0.01 (mean and confidence interval within 95% using a t-student distribution). The
-best RMSE was attained by the naive mean predictor. An analysis to the regression error curve
-(REC) shows that the SVM model predicts more examples within a lower admitted error. In effect,
-the SVM model predicts better small fires, which are the majority.
+The data used in the experiments was collected from January 2000 to December 2003
+and it was built using two sources. The first database was collected by the inspector that
+was responsible for the Montesinho fire occurrences. At a daily basis, every time a forest
+fire occurred, several features were registered, such as the time, date, spatial location, the type of vegetation involved,
+the six components of the FWI system and the total burned area. The second database
+was collected by the Braganc ̧a Polytechnic Institute, containing several weather
+observations (e.g. wind speed) that were recorded with a 30 minute period by a meteorological station 
+located in the center of the Montesinho park. The two databases were stored in tens of individual spreadsheets,
+under distinct formats, and a substantial manual effort was performed to integrate them
+into a single dataset with a total of 517 entries.
 
 Attribute Information:
 
